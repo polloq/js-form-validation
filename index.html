@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form validation</title>
+  </head>
+  <body>
+    <h1>Form Validation</h1>
+    <form name="generic-form">
+      <div class="input-group">
+        <label for="username">Name</label>
+        <input name="username" type="text" />
+        <div class="error"></div>
+      </div>
+      <div class="input-group">
+        <label for="zipcode">Zipcode</label>
+        <input name="zipcode" type="number" />
+        <div class="error"></div>
+      </div>
+      <div class="input-group">
+        <label for="phone">Phone</label>
+        <input name="phone" type="tel" />
+        <div class="error"></div>
+      </div>
+      <div class="input-group">
+        <label for="date">Date</label>
+        <input name="date" type="date" />
+        <div class="error"></div>
+      </div>
+      <div class="input-group">
+        <label for="time">Time</label>
+        <input name="time" type="time" />
+        <div class="error"></div>
+      </div>
+      <div class="input-group">
+        <label for="education">Education</label>
+        <input name="education" type="checkbox" value="primary school" />Primary
+        <input
+          name="education"
+          type="checkbox"
+          value="secondary school"
+        />Secondary
+        <input name="education" type="checkbox" value="college" />College
+        <div class="error"></div>
+      </div>
+      <div class="input-group">
+        <label for="gender">Gender</label>
+        <input name="gender" type="radio" value="male" />Male
+        <input name="gender" type="radio" value="female" />Female
+        <div class="error"></div>
+      </div>
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input name="email" type="email" />
+        <div class="error"></div>
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input name="password" type="password" />
+        <div class="error"></div>
+      </div>
+      <div class="input-group">
+        <label for="image">Image</label>
+        <input name="image" type="file" />
+        <div class="error"></div>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+
+    <script src="./form-validation.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
